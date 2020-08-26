@@ -1,3 +1,4 @@
 export default {
-    ALL_PRODUCTS: "GET_ALL_PRODUCTS"
+    ALL_PRODUCTS: "GET_ALL_PRODUCTS",
+    ALL_USERS: "GET_ALL_USERS"
 }

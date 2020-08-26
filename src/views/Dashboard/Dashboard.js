@@ -49,7 +49,7 @@ const styles = {
 };
 
 
-export default function TableList() {
+export default function ProductList() {
 
   const [AllProducts, setAllProducts] = React.useState([]);
 
