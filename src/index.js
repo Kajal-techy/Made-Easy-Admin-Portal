@@ -26,6 +26,7 @@ import RTL from "layouts/RTL.js";
 import "assets/css/material-dashboard-react.css?v=1.9.0";
 import client from "layouts/client.js";
 import { ApolloProvider } from '@apollo/client';
+import UserEdit from "views/User/UserEdit/UserEdit.js"
 
 const hist = createBrowserHistory();
 
@@ -33,6 +34,7 @@ ReactDOM.render(
   <ApolloProvider client={client}>
     <Router history={hist}>
       <Switch>
+        <Route exact path="/admin/useredit" component={UserEdit} />
         <Route path="/admin" component={Admin} />
         <Route path="/rtl" component={RTL} />
         <Redirect from="/" to="/admin/dashboard" />

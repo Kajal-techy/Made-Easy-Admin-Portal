@@ -1,0 +1,13 @@
+/*
+ * UserEdit css File
+*/
+
+.UserEdit {
+    /* propertys here */
+}
+
+.FormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
